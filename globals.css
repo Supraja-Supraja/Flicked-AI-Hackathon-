@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PPEditorialNew-UltralightItalic";
+  src: url("https://raw.githubusercontent.com/oeneco/file-thing/9f9223f211387b3764942fcff87f57523870916d/PPEditorialNew-UltralightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@layer base {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-start-rgb));
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "PPEditorialNew-UltralightItalic", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: -0.025em;
+  }
+
+  p {
+    font-family: var(--font-inter);
+    font-weight: 300;
+    opacity: 0.6;
+  }
+}
