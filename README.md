@@ -204,7 +204,8 @@ This project demonstrates:
 - **Testing**: Robust error handling
 - **Monitoring**: Performance tracking ready
 
-
+### **Demo vedio link**
+https://screenapp.io/app/#/shared/zL68VT--nI
 ---
 
 **This project represents not just a hackathon submission, but a complete vision for the future of AI-powered fashion commerce, combining cutting-edge ML technology with exceptional user experience.**
